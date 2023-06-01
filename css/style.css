@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+*{
+    font-family: Roboto, serif, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    height: 120px;
+    position: sticky;
+    top: 0px;
+}
+
+.logo{
+    display: flex;
+    font-size: 24px;
+    color: white;
+    align-items: center;
+    padding :15px;
+}
+h1 span:first-child {
+    color:#39B24A;
+}
+
+h1 span:last-child {
+    color: #FC200C;
+}
+.menu {
+    display: flex;
+    align-items: center;
+   
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    color: white;
+    width: 500px;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E5E5E5;
+    height: 85vh;
+    align-items: center;
+}
+
+.delivery{
+    position: relative;
+}
+
+.delivery h2 {
+    position: absolute;
+    font-size: 24px;   
+    color: #FC200C;
+    top: 5px;
+    left: 10px; 
+    
+}
+.banner-del span {
+    color: white;
+}
+
+.pizzas-top {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-evenly;
+    width:490px ;
+    height: 350px;
+    border-radius: 8px;
+}
+.pizzas-top div h2 {
+    color: #FC200C;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.pizzas-lista {
+    display: flex;
+    font-weight: 700;
+    justify-content: space-around;
+    line-height: 2;
+}
+ol p {
+    margin: 7px;
+    font-size: 20px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    height: 150px;
+
+}
+
+footer div:first-child {
+    color: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    padding: 5px;
+
+}
+
+.logo-final{
+    display: flex;
+    font-size: 24px;
+    color: white;
+    align-items: center;
+    padding: 15px;
+    margin-right: 15px;
+}
+.logo-final span:first-child {
+    color:#39B24A;
+}
+
+.logo-final span:last-child {
+    color: #FC200C; 
+ }
